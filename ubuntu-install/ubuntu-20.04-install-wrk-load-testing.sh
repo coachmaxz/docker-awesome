@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Build
+sudo -i
 sudo apt-get install build-essential libssl-dev git -y
 
 # Setup
-sudo -i
 mkdir -p /studio/build
 
 # Install Wrk Load-Testing
