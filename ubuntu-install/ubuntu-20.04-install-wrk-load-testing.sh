@@ -11,5 +11,6 @@ mkdir -p /studio/build
 cd /studio/build && git clone https://github.com/wg/wrk.git wrk
 cd /studio/build/wrk && sudo make
 
+# Global Command
 sudo cp wrk /usr/local/bin
 wrk --version
