@@ -12,5 +12,5 @@ cd /studio/build && git clone https://github.com/wg/wrk.git wrk
 cd /studio/build/wrk && sudo make
 
 # Global Command
-cp /studio/build/wrk /usr/local/bin
+cp /studio/build/wrk/wrk /usr/local/bin
 wrk --version
